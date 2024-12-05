@@ -1,0 +1,23 @@
+.product-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.product-detail img {
+    width: 80%;
+    max-width: 400px;
+}
+
+.product-detail button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.product-detail button:hover {
+    background-color: #0056b3;
+}
